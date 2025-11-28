@@ -68,6 +68,21 @@ The preprocessing pipeline includes:
 
 ---
 
+## 📂 Project Structure
+
+AyurSutra/
+│
+├── README.md # Project documentation
+├── best_AyurSutra.ipynb # Main notebook: data generation, preprocessing, modelling
+│
+├── label_encoder_2.pkl # Label encoder for archetypes (A/B/C)
+├── recovery_classifier_2.h5 # Trained ANN model for archetype classification
+├── scaler_classifier_2.pkl # Scaler used for classifier input features
+├── scaler_static_2.pkl # Scaler for static features (age, dosha, therapy, etc.)
+├── scaler_ts_2.pkl # Scaler for time-series features for LSTM
+├── wellness_predictor_lstm_2.h5 # Trained LSTM model for wellness prediction
+
+
 ## 📊 Key Results
 
 ### 🧠 **ANN Classification Model (Archetype Prediction)**

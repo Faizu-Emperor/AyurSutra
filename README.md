@@ -149,12 +149,23 @@ These visuals make the wellness modelling easy to interpret.
 
 ---
 
+## 🚀 Deployment (Streamlit App)
+
+This project is deployed using **Streamlit**, providing an interactive interface for:
+
+- Uploading patient data  
+- Predicting wellness score using the LSTM model  
+- Predicting recovery archetype using the ANN classifier  
+- Visualizing trends and wellness insights  
+
 ## 💻 Tech Stack
 
-- Python 3  
+- Python 3
+- LSTM, ANN
 - TensorFlow / Keras  
 - NumPy, Pandas  
-- Matplotlib, Seaborn  
+- Matplotlib, Seaborn
+- Streamlit
 
 ---
 
@@ -164,7 +175,6 @@ These visuals make the wellness modelling easy to interpret.
 
 - Integrate real Ayurvedic clinical datasets  
 - Add Transformer-based forecasting  
-- Deploy as a web dashboard  
 - Mobile-friendly real-time wellness tracker  
 - Include sensor data (HRV, sleep monitors)  
 - Multi-output prediction (stress, fatigue, energy score)
